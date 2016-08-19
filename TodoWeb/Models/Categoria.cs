@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace TodoWeb.Models
 {
-    public class Usuario
+   public class Categoria
     {
-        public int UsuarioId { get; set; }
+
+        public int CategoriaId { get; set; }
 
         public string Nome { get; set; }
 
-        public string Email { get; set; }
+        public int UsuarioId { get; set; }
 
-        public string Senha { get; set; }
     }
 }
